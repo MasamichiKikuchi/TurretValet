@@ -2,7 +2,9 @@
   
 ## 概要説明
  株式会社カプコン様が主催する学生向けのゲーム開発コンペティション「CAPCOM GAMES COMPETITION」にて、社内エンジン「RE ENGINE」を用いて制作したオリジナルゲームです。  
-  
+ #### ※ソースコードはカプコン様に許可を頂いたものを公開してます。RE ENGINE部分のコードは含まれておりません。  
+
+<br>
 宇宙のどこかにある魔法使いの世界アメイジングマジック学園(通称AMG)。  
 今日は年に一度の文化祭！  
 メインステージでは、生徒たちが自分の使い魔を自慢し合う「使い魔コンテスト」の決勝戦が始まろうとしていて......？  
@@ -70,26 +72,28 @@ Lトリガー:魔力玉発射/ビーム発射
 ### 須永ジン
 <details>
 <summary>クリックして展開</summary>  
-Bomb_Work(色変更、シェーダー関連)<br>
-InGame_GUIController.cs<br>
-MonsterDamageWork<br>
-Load_GUIController.cs<br>
-Pause_GUIController.cs<br>
-Result_GUIController.cs<br>
-ResultMovieGUI_Controller.cs<br>
-Select_GUIController.cs<br>
-Story_GUIController.cs<br>
-Title_GUIController.cs<br>
+  
+[Bomb_Work(色変更、シェーダー関連)](https://github.com/MasamichiKikuchi/TurretValet/blob/main/Script/Bomb_Work.cs)<br>
+[InGame_GUIController.cs](https://github.com/MasamichiKikuchi/TurretValet/blob/main/Script/InGame_GUIController.cs)<br>
+[MonsterDamageWork](https://github.com/MasamichiKikuchi/TurretValet/blob/main/Script/MonsterDamageWork.cs)<br>
+[Load_GUIController.cs](https://github.com/MasamichiKikuchi/TurretValet/blob/main/Script/Load_GUIController.cs)<br>
+[Pause_GUIController.cs](https://github.com/MasamichiKikuchi/TurretValet/blob/main/Script/PauseGUI.cs)<br>
+[Result_GUIController.cs](https://github.com/MasamichiKikuchi/TurretValet/blob/main/Script/Result_GUIController.cs)<br>
+[ResultMovieGUI_Controller.cs](https://github.com/MasamichiKikuchi/TurretValet/blob/main/Script/ResultMovieGUI_Controller.cs)<br>
+[Select_GUIController.cs](https://github.com/MasamichiKikuchi/TurretValet/blob/main/Script/Select_GUIController.cs)<br>
+[Story_GUIController.cs](https://github.com/MasamichiKikuchi/TurretValet/blob/main/Script/StoryGUI.cs)<br>
+[Title_GUIController.cs](https://github.com/MasamichiKikuchi/TurretValet/blob/main/Script/Title_GUIController.cs)<br>
 </details>
 
 ### 廣山将太郎
 <details>
-<summary>クリックして展開</summary>  
-CharacterBase_Work（ヒットストップ部分、エフェクト部分）<br>
-FrameSpeedController_Work<br>
-GamePadManager_Work<br>
-HitStopUserData_Work<br>
-Monster_Work<br>
-MonsterUserData_Work<br>
-SelectCharacterManager_Work<br>
+<summary>クリックして展開</summary>
+  
+[CharacterBase_Work（ヒットストップ部分、エフェクト部分）](https://github.com/MasamichiKikuchi/TurretValet/blob/main/Script/CharacterBase_Work.cs)<br>
+[FrameSpeedController_Work](https://github.com/MasamichiKikuchi/TurretValet/blob/main/Script/FrameSpeedController_Work.cs)<br>
+[GamePlayerManager_Work](https://github.com/MasamichiKikuchi/TurretValet/blob/main/Script/GamePlayerManager_Work.cs)<br>
+[HitStopUserData_Work](https://github.com/MasamichiKikuchi/TurretValet/blob/main/Script/HitStopUserData_Work.cs)<br>
+[Monster_Work](https://github.com/MasamichiKikuchi/TurretValet/blob/main/Script/Monster_Work.cs)<br>
+[MonsterUserData_Work](https://github.com/MasamichiKikuchi/TurretValet/blob/main/Script/MonsterUserData_Work.cs)<br>
+[SelectCharacterManager_Work](https://github.com/MasamichiKikuchi/TurretValet/blob/main/Script/SelectCharacterManager_Work.cs)<br>
 </details>
